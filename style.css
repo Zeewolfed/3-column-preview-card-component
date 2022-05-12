@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(240, 57%, 51%); }
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px 500px;
+    background-color: #f2f2f2;
+    
+}
+
+.card1 {
+    height: 500px;
+    background-color: orange;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+}
+
+.card2 {
+    height: 500px;
+    background-color: rgb(39, 129, 129);
+
+}
+
+.card3 { 
+    height: 500px;
+    background-color: rgb(4, 102, 132);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+* h1 {
+    color: white;
+    font-family: "Lexend Deca" , serif;
+    padding-left: 60px;
+    text-transform: uppercase;
+    
+}
+
+.sedans, .suvs, .luxury {
+    padding-left: 60px;
+    padding-top: 30px;
+       
+}
+
+.flex p {
+    font-family:"Lexend Deca" , serif;
+    color: #fff;
+    line-height: 1.5em;
+    margin: 30px 60px 70px 60px;
+}
+
+.orange_button, .light_green , .blue  {
+    background-color: inherit;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #fff; 
+    border-radius: 24px / 24px; 
+    margin-left: 60px;
+    font-family: "Lexend Deca" , serif;
+    color: #fff;  
+}
+
+/* .attribution {
+    
+    position: relative;
+    top: 280px;
+    right: 50%;
+    
+} */
